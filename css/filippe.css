@@ -1,0 +1,144 @@
+.section-filippe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .container-filippe {
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 800px;
+  }
+  
+  .container-filippe p:first-child {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+  
+  .container-filippe h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  .container-filippe p:last-child {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .container2-filippe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  
+  .text-container2-filippe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .text-container2-filippe h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    padding: 0;
+  }
+  
+  .text-container2-filippe p {
+    font-size: 14px;
+    color: #555;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .img-container2-filippe {
+    width: 100%;
+    background-color: #e0e0e0;
+    aspect-ratio: 16/9;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .img-container2-filippe img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .btn-container-filippe {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  
+  .btn-filippe,
+  .btn2-filippe {
+    padding: 10px 24px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #000;
+    font-weight: 500;
+    min-width: 120px;
+    height: auto;
+    transition: background-color 0.2s;
+  }
+  
+  .btn-filippe {
+    border: 1px solid #000;
+    border-radius: 0;
+  }
+  
+  .btn2-filippe {
+    border: none;
+  }
+  
+  .btn-filippe:hover {
+    background-color: #f5f5f5;
+  }
+  
+  @media (max-width: 768px) {
+    .container2-filippe {
+      grid-template-columns: 1fr;
+    }
+  
+    .container-filippe h1 {
+      font-size: 28px;
+    }
+  
+    .img-container2-filippe {
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .btn-container-filippe {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .btn-filippe,
+    .btn2-filippe {
+      width: 80%;
+    }
+  }

@@ -1,0 +1,62 @@
+@import "reset.css";
+@import "rafael.css";
+@import "felicio2.css";
+@import "filippe.css";
+@import "arthur.css";
+@import "lucas.css";
+@import "felicio.css";
+
+
+body {
+  min-height: 100vh;
+  height: auto;
+  flex-direction: column;
+  padding: 0;
+  line-height: 1.5;
+  color: #000;
+  display: block;
+  background-color: #f4f4f4;
+}
+
+/* Definição de largura máxima e centralização para todos os componentes (exceto footer) */
+.container-Rafael,
+.section-felicio2,
+.section-filippe,
+.arthurContainer,
+.comments {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Garantir que os contêineres sejam visíveis */
+#header-container, 
+#hero-container,
+#impact-container,
+#benefits-container, 
+#testimonials-container,
+#footer-container {
+  width: 100%;
+  display: block;
+}
+
+#header-container {
+  margin-bottom: 0;
+}
+
+#hero-container,
+#impact-container,
+#benefits-container,
+#testimonials-container {
+  margin-bottom: 20px;
+}
+
+/* Impedir que outras regras afetem os ícones do FontAwesome */
+.fa-solid {
+  font-style: normal;
+}
+
+/* Fazer com que o footer fique no fundo da página */
+#footer-container {
+  margin-top: auto;
+}

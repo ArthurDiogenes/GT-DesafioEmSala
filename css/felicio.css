@@ -1,0 +1,83 @@
+.section-felicio {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 50px 20px;
+    background-color: #222;
+    width: 100%;
+    margin-top: 40px;
+    color: white;
+}
+
+.email-felicio,
+.telefone-felicio,
+.endereco-felicio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.email-felicio:hover,
+.telefone-felicio:hover,
+.endereco-felicio:hover {
+    transform: translateY(-5px);
+}
+
+.icon-felicio {
+    font-size: 40px;
+    color: #4b7bec;
+    margin-bottom: 15px;
+}
+
+.title-felicio {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.text-felicio {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #ddd;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.link-felicio {
+    color: #4b7bec;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.link-felicio:hover {
+    color: #74a3ff;
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .section-felicio {
+        flex-direction: column;
+        padding: 30px 15px;
+    }
+    
+    .email-felicio,
+    .telefone-felicio,
+    .endereco-felicio {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .email-felicio:last-child,
+    .telefone-felicio:last-child,
+    .endereco-felicio:last-child {
+        margin-bottom: 0;
+    }
+}
