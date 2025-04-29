@@ -18,7 +18,6 @@ body {
   background-color: #f4f4f4;
 }
 
-/* Definição de largura máxima e centralização para todos os componentes (exceto footer) */
 .container-Rafael,
 .section-felicio2,
 .section-filippe,
@@ -29,7 +28,6 @@ body {
   width: 100%;
 }
 
-/* Garantir que os contêineres sejam visíveis */
 #header-container, 
 #hero-container,
 #impact-container,
@@ -51,12 +49,10 @@ body {
   margin-bottom: 20px;
 }
 
-/* Impedir que outras regras afetem os ícones do FontAwesome */
 .fa-solid {
   font-style: normal;
 }
 
-/* Fazer com que o footer fique no fundo da página */
 #footer-container {
   margin-top: auto;
 }
